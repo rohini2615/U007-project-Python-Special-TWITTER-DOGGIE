@@ -1,1 +1,6 @@
-# U008-special-project-Python-TWITTER-DOG
+# U008-special-project: 'WeRateDogs' Twitter data
+
+### WranglingSpecial
+
+
+
