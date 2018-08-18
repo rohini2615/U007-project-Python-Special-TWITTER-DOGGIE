@@ -86,7 +86,7 @@ Analyze and visualize your wrangled data in your wrangle_act.ipynb Jupyter Noteb
 Use **Tweepy** library to query Twitter's API for additional data beyond the data included in the WeRateDogs Twitter archive. This additional data will include **retweet count** and **favorite count**. Some APIs are completely open, like **MediaWiki** (accessed via the **wptools** library). Others require authentication. The Twitter API is one that requires users to be authorized to use it. This means that before you can run your API querying code, you need to set up your own Twitter application. ( https://www.slickremix.com/docs/how-to-get-api-keys-and-tokens-for-twitter/ ) you must sign up for a Twitter account. * Once you have these set up, the following code, which is provided in the "Getting started" portion of the tweepy documentation, ( https://media.readthedocs.org/pdf/tweepy/latest/tweepy.pdf ) will create an API object that you can use to gather Twitter data.
 
 
-## Deep Learning Real-life
+## PART_II. Classification with Deep Learning 
 [//]: # (Image References)
 
 [image1]: ./images/sample_dog_output.png "Sample Output"
