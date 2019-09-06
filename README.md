@@ -42,7 +42,7 @@ __Data02:__ **'Image Predictions File'**: One more cool thing: I ran every image
 __Data03:__ **'Additional Data via the Twitter API'**: Back to the basic-ness of 'Enhanced Twitter Archive': **retweet count** and **favorite count** are two of the notable column omissions. Fortunately, this additional data can be gathered by anyone from **Twitter's API**. Well, "anyone" (who has access to data for the 3000 most recent tweets, at least but you, because you have the **WeRateDogs Twitter archive** and specifically the **tweet IDs** within it,) can gather this data for all 5000+. And guess what? You're going to query Twitter's API to gather this valuable data.
 
 --------------------------------
-> __*Key points__ to keep in mind when data wrangling for this project:
+> __*Key points__ 
  - You only want original ratings (no retweets) that have images. Though there are 5000+ tweets in the dataset, not all are dog ratings and some are retweets.
  - Assessing and cleaning the entire dataset completely would require a lot of time, and is not necessary to practice and demonstrate your skills in data wrangling. Therefore, the requirements of this project are only to assess and clean at least **8 quality issues** and at least **2 tidiness issues** in this dataset.
  - Cleaning includes merging individual pieces of data according to the rules of tidy data. https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html
@@ -50,7 +50,6 @@ __Data03:__ **'Additional Data via the Twitter API'**: Back to the basic-ness of
  - You do not need to gather the tweets beyond August 1st, 2017. You can, but note that you won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
 
 ## My tasks in this project are as follows:
-
  - Data wrangling, which consists of:
    - Gathering data
    - Assessing data
@@ -102,11 +101,7 @@ Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree!
 
 Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
-
-## Project Instructions
-
-### Instructions
-
+## Instructions
 1. Clone the repository and navigate to the downloaded folder.
 	
 	```	
@@ -153,9 +148,7 @@ __NOTE:__ While some code has already been implemented to get you started, you w
 Instead of training your model on a local CPU (or GPU), you could use Amazon Web Services to launch an EC2 GPU instance.  Please refer to the [Udacity instructions](https://classroom.udacity.com/nanodegrees/nd889/parts/16cf5df5-73f0-4afa-93a9-de5974257236/modules/53b2a19e-4e29-4ae7-aaf2-33d195dbdeba/lessons/2df3b94c-4f09-476a-8397-e8841b147f84/project) for setting up a GPU instance for this project.
 
 -------------------------------------------------------------------------------------------------------------------
-## Suggestions to Make your Project Stand Out!
-
-(Presented in no particular order ...)
+## [NOTE]
 
 #### (1) Augment the Training Data 
 
